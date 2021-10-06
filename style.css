@@ -35,7 +35,6 @@ img{
     flex-flow: wrap;
     margin: 0 auto;
     box-shadow: none;
-    border: none;
 }
 
 div{
@@ -48,9 +47,4 @@ div{
     padding: 2rem;
     border-radius: 2rem;
     box-shadow: rgb(184, 43, 189);
-}
-
-.text{
-    font-size: 3rem;
-    padding-bottom: 2rem;
 }

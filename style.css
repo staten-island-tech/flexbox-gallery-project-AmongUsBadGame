@@ -22,11 +22,16 @@ body{
 }
 
 .body{
-    background-color: rgb(230, 45, 45);
+    background-color: rgb(230, 35, 35);
 }
 
 img{
-    height: 25rem;
+    height:25rem;
+    transition: all 0.3s;
+}
+
+img:hover{
+    height: 30rem;
 }
 
 .main-div{
@@ -48,6 +53,11 @@ div{
     padding: 2rem;
     border-radius: 2rem;
     box-shadow: 10px 5px 5px rgb(255, 252, 75);
+    transition: all 0.3s;
+}
+
+div:hover {
+ background-color: rgb(230, 45, 45);
 }
 
 .text{

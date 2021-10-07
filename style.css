@@ -17,16 +17,16 @@ body{
     width: 100%;
     margin: 0 auto;
     padding: 2rem;
-    background-color: rgb(98, 223, 181);
-    color: rgb(145, 35, 135);
+    background-color: rgb(255, 251, 0);
+    color: rgb(0, 0, 0);
 }
 
 .body{
-    background-color: cyan;
+    background-color: rgb(230, 45, 45);
 }
 
 img{
-    height: 20rem;
+    height: 25rem;
 }
 
 .main-div{
@@ -41,13 +41,13 @@ img{
 div{
     text-align: center;
     font-size: 3rem;
-    border: solid 1rem crimson;
+    border: solid 1rem rgb(0, 0, 0);
     flex: 0 32%;
     margin-bottom: 2%;
     margin-top: 2%;
     padding: 2rem;
     border-radius: 2rem;
-    box-shadow: coral;
+    box-shadow: 10px 5px 5px rgb(255, 252, 75);
 }
 
 .text{

@@ -64,3 +64,43 @@ div:hover {
     font-size: 3rem;
     padding-bottom: 2rem;
 }
+
+.animation{
+    height: 2rem;
+    width: 2rem;
+    animation: test 4s infinite;
+    position: absolute;
+}
+
+@keyframes test{
+    0%{
+        left: 50%;
+        bottom: 10%;
+        background-color: red;
+
+    }
+    25%{
+        left: 50%;
+        bottom: 20%;
+        background-color: red;
+
+    }
+    50%{
+        left: 55%;
+        bottom: 20%;
+        background-color: red;
+
+    }
+    75%{
+        left: 55%;
+        bottom: 10%;
+        background-color: red;
+
+    }
+    100%{
+        left: 50%;
+        bottom: 10%;
+        background-color: red;
+
+    }
+}

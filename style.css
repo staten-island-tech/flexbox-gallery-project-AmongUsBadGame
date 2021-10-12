@@ -100,7 +100,7 @@ div:hover {
     100%{
         left: 50%;
         bottom: 10%;
-        background-color: red;
+        background-color: rgb(23, 154, 206);
 
     }
 }

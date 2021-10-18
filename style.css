@@ -5,6 +5,18 @@ body,
     margin: 0%;
     box-sizing: border-box;
     font-size: 62.5%;
+    animation: FadeInAnimation ease 1s;
+    animation-iteration-count: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes FadeInAnimation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 3;
+    }
 }
 
 body{
@@ -103,4 +115,26 @@ div:hover {
         background-color: rgb(23, 154, 206);
 
     }
+}
+
+@keyframes bingchili{
+
+
+    from {
+        transform: translateY(0)
+    }
+    50% {
+        transform:hover translateY(5rem)
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+.dun:hover{
+    transform: matrix(0.5, 0.6, 0.7, 0.8, 0.9, 1)
+}
+
+.lordsavior:hover{
+    transform: rotate(0.5turn);
 }

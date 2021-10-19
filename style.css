@@ -5,7 +5,7 @@ body,
     margin: 0%;
     box-sizing: border-box;
     font-size: 62.5%;
-    animation: FadeInAnimation ease 1s;
+    animation: FadeInAnimation ease 2.5s;
     animation-iteration-count: 1s;
     animation-fill-mode: forwards;
 }
@@ -15,7 +15,7 @@ body,
         opacity: 0;
     }
     100%{
-        opacity: 3;
+        opacity: 1;
     }
 }
 
@@ -138,3 +138,42 @@ div:hover {
 .lordsavior:hover{
     transform: rotate(0.5turn);
 }
+
+.bingchili:hover{
+    display: none;
+}
+
+.bingchili{
+    transition: all 1s ease-in;
+    z-index: 2;
+}
+
+.see{
+    position: absolute;
+    top: 90rem;
+    left: 90rem;
+    z-index: -1;
+}
+
+.title {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    75% {
+      font-size: 300%;
+      margin-left: 25%;
+      width: 150%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

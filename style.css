@@ -84,42 +84,7 @@ div:hover {
     position: absolute;
 }
 
-@keyframes test{
-    0%{
-        left: 50%;
-        bottom: 10%;
-        background-color: red;
-
-    }
-    25%{
-        left: 50%;
-        bottom: 20%;
-        background-color: red;
-
-    }
-    50%{
-        left: 55%;
-        bottom: 20%;
-        background-color: red;
-
-    }
-    75%{
-        left: 55%;
-        bottom: 10%;
-        background-color: red;
-
-    }
-    100%{
-        left: 50%;
-        bottom: 10%;
-        background-color: rgb(23, 154, 206);
-
-    }
-}
-
 @keyframes bingchili{
-
-
     from {
         transform: translateY(0)
     }
@@ -198,23 +163,24 @@ div:hover {
     }
   }
 
-@media screen and (max-width: 400px){
-      .title{
-          color: lightblue;
-      }
 
-  }
-
-@media screen and (max-width: 500px){
+@media screen and (max-width: 1000px){
     .title{
-        color: rgb(187, 169, 10);
+        color: rgb(223, 39, 39);
     }
 
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
     .title{
-        color: rgb(223, 39, 39);
+        color: rgb(18, 201, 94);
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    .title{
+        color: lightblue;
     }
 
 }

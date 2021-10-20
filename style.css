@@ -198,9 +198,23 @@ div:hover {
     }
   }
 
-  @media all and (max-width: 500px){
-      body{
+@media screen and (max-width: 400px){
+      .title{
           color: lightblue;
       }
 
   }
+
+@media screen and (max-width: 500px){
+    .title{
+        color: rgb(187, 169, 10);
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .title{
+        color: rgb(223, 39, 39);
+    }
+
+}
